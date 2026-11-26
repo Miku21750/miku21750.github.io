@@ -96,7 +96,7 @@ a:hover {
 .card {
     margin-top: 100px;
     margin-bottom: 100px;
-    height : 1950px;
+
     width: 1200px;
     border-radius: 30px;
     background-color: #333541;
@@ -141,7 +141,7 @@ a:hover {
     .card {
         margin-top: 100px;
         margin-bottom: 100px;
-        height : 2050px;
+
         width: 1000px;
         border-radius: 30px;
         background-color: #333541;
@@ -154,7 +154,7 @@ a:hover {
     .card {
         margin-top: 100px;
         margin-bottom: 100px;
-        height : 2350px;
+
         width: 800px;
         border-radius: 30px;
         background-color: #333541;
@@ -167,7 +167,7 @@ a:hover {
     .card {
         margin-top: 100px;
         margin-bottom: 100px;
-        height : 2950px;
+
         width: 600px;
         border-radius: 30px;
         background-color: #333541;
@@ -187,7 +187,7 @@ a:hover {
     .card {
         margin-top: 100px;
         margin-bottom: 100px;
-        height : 3850px;
+
         width: 450px;
         border-radius: 30px;
         background-color: #333541;
@@ -212,7 +212,7 @@ a:hover {
     .card {
         margin-top: 100px;
         margin-bottom: 100px;
-        height : 5050px;
+
         width: 350px;
         border-radius: 30px;
         background-color: #333541;
@@ -229,7 +229,7 @@ a:hover {
     .card {
         margin-top: 100px;
         margin-bottom: 100px;
-        height : 6300px;
+
         width: 290px;
         border-radius: 30px;
         background-color: #333541;
@@ -241,3 +241,4 @@ a:hover {
         font-size: 2em;
     }
 }
+.card { max-width: calc(100% - 2rem); padding-bottom: 3rem; }

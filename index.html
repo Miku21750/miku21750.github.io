@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/square.css">
     <link rel="stylesheet" href="css/waves.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/modern.css">
 </head>
 <body style="background-color:#a8d5e5;">
     <nav class="navbar navbar-expand-lg navbar-dark gd-nav-anim fixed-top">
@@ -61,42 +62,18 @@
     </nav>
     <!-- Header -->
     <div style="position: relative;">
-        <header class="text-center bg-img text-white py-5 mt-5">
-            <!-- <h1 class="display-1 font-weight-bolder head-anim">Miku21</h1> -->
-            <h1 class="font-weight-bolder head-anim">Miku21Bot</h1>
-            <p class="text-head"><strong> Bot multifungsi yang berbeda dari sebelumnya</strong></p>
-        </header>
-        <!-- section judul -->
-        <section class="py-5">
-            <div class="container px-5 bg-light">
-                <div class="row gx-5 align-items-center ">
-                    <div class="col-lg-6">
-                        <!-- Mashead text and app badges-->
-                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-2 lh-1 mb-3">Bot Whatsapp MD</h1>
-                            <p class="lead fw-normal text-muted mb-5">Bot Whatsapp dengan fitur berbeda daripada sebelumnya </p>
-                            <div class=" align-items-center">
-                                <a class="me-lg-3 mb-4 mb-lg-0" href="https://api.whatsapp.com/send?phone=6283834685418">Chat the bot now! </br> <img class="app-badge" src="img/wa.svg" alt="Whatsapp"  style="width: 300px; max-height: 45px;"/></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <!-- Masthead device mockup feature
-                        <div class="masthead-device-mockup">
-                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                        <stop class="gradient-start-color" offset="0%"></stop>
-                                        <stop class="gradient-end-color" offset="100%"></stop>
-                                    </linearGradient>
-                                </defs> -->
-                            <div class="device-wrapper">
-                                <img src="https://i.gifer.com/Z23a.gif" alt="Miku Gif" class="gif-miku">
-                            </div>
-                        </div>
-                    </div>
+        <header class="bot-hero">
+            <div class="hero-inner">
+                <div>
+                    <p class="hero-type">WhatsApp Multi-Device</p>
+                    <h1>Miku<span>21</span>Bot</h1>
+                    <p class="hero-intro">Bikin stiker, edit foto, dan main game langsung dari chat WhatsApp.</p>
+                    <a class="hero-action" href="https://api.whatsapp.com/send?phone=6285707228714">Chat dengan bot ↗</a>
+                    <a class="hero-link" href="#pricelist">Lihat harga ↓</a>
                 </div>
-                
+                <div class="bot-art"><img src="img/favicon/android-chrome-512x512.png" alt="Miku21Bot"></div>
+            </div>
+        </header>
         <!-- carding -->
         <section class="py-5" id="fitur">
             <div class="container px-5 ">
@@ -197,7 +174,7 @@
                         <li class="text-muted">Balance(MIKO) Setiap Bulan</li>
                         <li>Gc Official &#10004;</li>
                       </ul>
-                      <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#sewa">Sewa Sekarang</button>
+                      <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-plan="Rp. 10.000 ( Sewa Only )" data-plan="Rp. 15.000 ( Sewa + Premium )" data-plan="Rp. 5.000 ( Premium Only )" data-target="#sewa">Sewa Sekarang</button>
                     </div>
                   </div>
                   <div class="card mb-4 shadow-sm">
@@ -235,7 +212,7 @@
         <!-- faq -->
         <section class="py-5" id="faq">
             
-<div class="faq_area section_padding_130" id="faq">
+<div class="faq_area section_padding_130">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-sm-8 col-lg-6">
@@ -327,7 +304,7 @@
           <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
         </defs>
         <g class="parallax">
-          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
           <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
           <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
           <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
@@ -337,60 +314,11 @@
     <div class="text-center py-3 mb-0 bg-light ">
         &copy; 2022 Copyright:
       <a href="https://github.com/Miku21750" class="badge badge-warning"> Miku21</a> 
-      <a href="#"></a>
+
     </div>
   </footer>
   <!-- modal -->
-    <div class="modal fade" id="sewa" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content position-relative">
-                <div class="position-absolute top-0 end-0 mt-3 me-3 z-index-1"><button class="btn-close btn btn-sm btn-circle d-flex flex-center transition-base" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                <div class="bg-light rounded-top-lg py-3 ps-4 pe-6">
-                    <h4 class="mb-1 text-center" id="pricing">Sewa Bot</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row gx-12">
-                                        <div class="mb-3 col-sm-6">
-                                            <label class="form-label" for="name">Your Name</label>
-                                            <input class="form-control" type="text" id="name" name="name" placeholder="Your Name"/>
-                                        </div>
-                                        <div class="mb-3 col-sm-6">
-                                            <label class="form-label" for="email">Your Email</label>
-                                            <input class="form-control" type="text" id="email" name="email" placeholder="Your Email"/>
-                                        </div>
-                                    </div>
-        
-                                    <div class="form-group mb-3">
-                                        <label>Pilih Produk*</label>
-                                        <select name="product" class="form-control" id="product" required>
-                                            <option value="Rp. 10.000 ( Sewa Only )">Rp. 10.000 ( Sewa Only )</option>
-                                            <option value="Rp. 15.000 ( Sewa + Premium )">Rp. 15.000 ( Sewa + Premium )</option>
-                                            <option value="Rp. 5.000 ( Sewa )">Rp. 5.000 ( Sewa )</option>
-                                            <option value="Custom Price">Custom Price</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group mb-3">
-                                        <label>Ada Catatan ?</label>
-                                        <textarea name="description" class="form-control" rows="3" id="description"></textarea>
-                                    </div>
-        
-                                    <div id="text-info mb-3"></div>
-                                    <div class="form-group">
-                                        <button class="btn btn-success send"><i class="mdi mdi-cart-arrow-right me-1"></i> Pesan via WhatsApp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  
+    <div id="rental-dialog"></div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
