@@ -1,0 +1,21 @@
+.community-panel {
+    position: relative;
+    z-index: 1;
+    width: min(40rem, calc(100% - 2rem));
+    margin: 3rem auto;
+    scroll-margin-top: 5rem;
+}
+.community-panel h2 { margin-bottom: 1rem; font-size: 1.6rem; color: #193b50; }
+.team-directory { list-style: none; margin: 0; padding: 0 1rem; background: #fff; border-radius: 1rem; }
+.team-directory li { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: .45rem 0; min-height: 3.5rem; }
+.team-directory li + li { border-top: 1px solid #dce9eb; }
+.team-directory a { padding: .65rem .85rem; border-radius: 2rem; background: #e0f6ec; color: #125b43; font-weight: 600; font-size: .9rem; }
+.group-invite { display: flex; align-items: center; gap: 1rem; margin-top: .75rem; padding: 1rem; border-radius: 1rem; background: #fff; color: #244559; }
+.group-invite img { width: 3rem; height: 3rem; object-fit: cover; border-radius: 50%; }
+.group-invite strong, .group-invite small { display: block; }
+.group-invite small { margin-top: .25rem; }
+.official-invite { padding: 1.5rem; background: linear-gradient(115deg, #194761, #256870); color: #fff; }
+.official-invite strong { font-size: 1.35rem; }
+.official-invite img { width: 4rem; height: 4rem; }
+.official-invite:hover { color: #fff; }
+.community-panel a:focus-visible { outline: 3px solid #222e60; outline-offset: 3px; }

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/square.css">
     <link rel="stylesheet" href="css/waves.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/community.css">
 </head>
 <body style="background-color:#a8d5e5;">
     <nav class="navbar navbar-expand-lg navbar-dark gd-nav-anim fixed-top">
@@ -223,30 +224,17 @@
                     </div>
                 </div>
             </section>
-            <!--  -->
-            <hr><hr>
-            <!-- Section Gc Official Start here -->
-            <section id="gcofficial">
-                <h2 class="display-2 text-center font-weight-bolder">GC Official</h2>
-                <div class="text-center clearfix">
-                    <a href="https://chat.whatsapp.com/ExgUuloEFIj7fxa9SyzdAV" class="btn btn-md btn-primary py-3 btn-gc">
-                        <img src="img/gcofficial.jpg" class="img-fluid rounded-circle img-btn-gc mr-3" alt="Hatsune Miku"/>
-                        <span class="align-content-center font-weight-bolder txt-btn-gc">Group Official Miku21 Bot</span>
-                    </a>
-                </div>
-                <br>
-                <div class="text-center clearfix">
-                    <a href="https://chat.whatsapp.com/Kxp5Z9FGnHd66icmBLzWzn" class="btn btn-md btn-danger py-3 btn-gc">
-                        <img src="img/gcnsfw.jpg" class="img-fluid rounded-circle mr-3 img-btn-gc" alt="Hatsune Miku"/>
-                        <span class="align-content-center text-dark font-weight-bolder txt-btn-gc">Group NSFW Miku21 Bot</span>
-                    </a>
-                </div>
+            <section id="gcofficial" class="community-panel">
+                <h2>Komunitas Miku21</h2>
+                <a class="group-invite official-invite" href="https://chat.whatsapp.com/ExgUuloEFIj7fxa9SyzdAV">
+                    <img src="img/gcofficial.jpg" alt="">
+                    <span><strong>Grup Resmi Miku21 Bot</strong><small>Gabung di WhatsApp →</small></span>
+                </a>
+                <a class="group-invite" href="https://chat.whatsapp.com/Kxp5Z9FGnHd66icmBLzWzn">
+                    <img src="img/gcnsfw.jpg" alt="">
+                    <span><strong>Grup NSFW Miku21 Bot</strong><small>Buka undangan →</small></span>
+                </a>
             </section>
-            <!-- Section end here -->
-            <hr><hr>
-            <!-- Section Donate Start Here -->
-            <!-- Section end here -->
-            <hr><hr>
             <!-- animasi kotak -->
             <ul class="circles">
                 <li class="kotak"></li>
@@ -272,7 +260,7 @@
           <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
         </defs>
         <g class="parallax">
-          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
           <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
           <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
           <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
@@ -285,56 +273,8 @@
     </div>
   </footer>
   <!-- modal -->
-  <div class="modal fade" id="sewa" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content position-relative">
-            <div class="position-absolute top-0 end-0 mt-3 me-3 z-index-1"><button class="btn-close btn btn-sm btn-circle d-flex flex-center transition-base" data-bs-dismiss="modal" aria-label="Close"></button></div>
-            <div class="bg-light rounded-top-lg py-3 ps-4 pe-6">
-                <h4 class="mb-1 text-center" id="pricing">Sewa Bot</h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row gx-12">
-                                    <div class="mb-3 col-sm-6">
-                                        <label class="form-label" for="name">Your Name</label>
-                                        <input class="form-control" type="text" id="name" name="name" placeholder="Your Name"/>
-                                    </div>
-                                    <div class="mb-3 col-sm-6">
-                                        <label class="form-label" for="email">Your Email</label>
-                                        <input class="form-control" type="text" id="email" name="email" placeholder="Your Email"/>
-                                    </div>
-                                </div>
-    
-                                <div class="form-group mb-3">
-                                    <label>Pilih Produk</label>
-                                    <select name="product" class="form-control" id="product">
-                                        <option value="Rp. 10.000 ( Sewa Only )">Rp. 10.000 ( Sewa Only )</option>
-                                        <option value="Rp. 15.000 ( Sewa + Premium )">Rp. 15.000 ( Sewa + Premium )</option>
-                                        <option value="Rp. 5.000 ( Sewa )">Rp. 5.000 ( Sewa )</option>
-                                        <option value="Custom Price">Custom Price</option>
-                                    </select>
-                                </div>
-                                <div class="form-group mb-3">
-                                    <label>Ada Catatan ?</label>
-                                    <textarea name="description" class="form-control" rows="3" id="description"></textarea>
-                                </div>
-    
-                                <div id="text-info mb-3"></div>
-                                <div class="form-group">
-                                    <button class="btn btn-success send"><i class="mdi mdi-cart-arrow-right me-1"></i> Pesan via WhatsApp</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script src="js/jquery.min.js"></script>
+  <div id="rental-dialog"></div>
+    <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/index.js"></script>
 </body>
